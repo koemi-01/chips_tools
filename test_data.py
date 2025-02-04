@@ -13,6 +13,7 @@ class Platform:
         self.name = name
         self.launch_year = launch_year
 
+
 #This is the Game class.
 #Note that the initializer takes 3 arguments:
 #  title
@@ -23,6 +24,7 @@ class Game:
         self.title = title
         self.platform = platform
         self.year = year
+
 
 #This is the GameLibrary class.
 #It is defined by a single piece of data: a list of games
